@@ -64,3 +64,8 @@ def show_data(result):
         print('Rate/USD: ', result['24k gold/gram']['rate/usd'])
         print('Bid: ', result['24k gold/gram']['bid'])
         print('Ask: ', result['24k gold/gram']['ask'])
+
+if __name__ == '__main__':
+    print('Aplikasi utama')
+    result = data_extract()
+    show_data(result)
