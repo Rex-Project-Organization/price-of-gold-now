@@ -8,6 +8,8 @@ This package used BeautifulSoup4 and Requests to generate JSON output that'll be
 
 ## How to Run
 ```
+import beautifulsoup4
+import requests
 import priceofgold
 
 if __name__ == '__main__':
